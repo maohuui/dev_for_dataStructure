@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03-插入排序", "03-插入排序.vcxproj", "{06411EC7-2671-4F0F-B51C-E842700D463F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Debug|x64.ActiveCfg = Debug|x64
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Debug|x64.Build.0 = Debug|x64
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Debug|x86.ActiveCfg = Debug|Win32
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Debug|x86.Build.0 = Debug|Win32
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Release|x64.ActiveCfg = Release|x64
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Release|x64.Build.0 = Release|x64
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Release|x86.ActiveCfg = Release|Win32
+		{06411EC7-2671-4F0F-B51C-E842700D463F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3A4B947-EF8D-450E-9DF4-F483130F5345}
+	EndGlobalSection
+EndGlobal
