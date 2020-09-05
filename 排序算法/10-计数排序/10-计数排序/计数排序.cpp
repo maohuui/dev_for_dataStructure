@@ -7,7 +7,8 @@ void printArray(int arr[], int n)
 		cout << arr[i] << " ";
 	cout << endl;
 }
-
+//量大但是范围小的思想，适合有范围的值排序
+//非比较算法， 桶排序的一种
 void count_sort(int arr[], int n)
 {
 	int* countArray = (int*)calloc(10, sizeof(int));// 分配内存之后会初始化为0
@@ -29,7 +30,7 @@ void count_sort(int arr[], int n)
 		{
 			sortArray[j] = i;
 			j++;
-		}
+		} 
 	}
 	for (int i = 0; i < n; i++)
 	{

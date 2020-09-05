@@ -16,4 +16,6 @@ public:
 	virtual T& back() = 0;
 	virtual void pop() = 0;
 	virtual void push(const T& elem) = 0;
+	virtual void clear() = 0;
+	virtual void visit() = 0;
 };
